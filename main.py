@@ -3,7 +3,7 @@ from cifrado_cesar import cifrado_cesar
 nombre = input("¿Cual es tu nombre? ")
 print(f"Bienvenido {nombre}")
 
-mensaje = int(input("Cántos espacios deseas moverte: ")) 
+mensaje = int(input("Cuántos espacios deseas moverte: ")) 
 
 prueba = cifrado_cesar(mensaje)
 
